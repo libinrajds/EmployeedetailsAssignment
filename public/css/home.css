@@ -1,0 +1,121 @@
+/* Base Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(#1A255C );
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar with Linear Gradient Background */
+  .navbar {
+    background: linear-gradient( #EEF0F3, #282A25);
+    padding: 0.9rem 1.5rem;
+    border-bottom: 1px solid rgba(96, 165, 39, 0.352);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #fffffff7;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #e0e0e0;
+    margin-right: 1rem;
+    transition: color 0.2s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Container for Card Grid */
+  .container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  /* Card Styles with Subtle Gradient & Shadow */
+  .card {
+    background: linear-gradient(135deg, #ffffff, #f1f8ff);
+    border: 3px solid #e6e6e6;
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+    color: #212529;
+    background-color: #FDB0E6;
+  }
+  
+  /* Card Heading & Text */
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.8rem;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: white;
+    margin-bottom: 0.45rem;
+  }
+  
+  /* Buttons with Gradient Accents */
+  .btn-warning,
+  .btn-danger {
+    margin-top: 0.7rem;
+    margin-right: 0.5rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-warning {
+    background: linear-gradient(90deg, skyblue);
+    color: #212529;
+  }
+  
+  .btn-warning:hover {
+    background: linear-gradient(90deg, #227cb8, black);
+    color: white;
+  }
+  
+  .btn-danger {
+    background: linear-gradient(90deg,  #ad0818);
+    color: #ffffff;
+  }
+  
+  .btn-danger:hover {
+    background: linear-gradient(90deg, #65060f, black);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .navbar-nav .nav-link {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+  
+    .card-body {
+      padding: 1.2rem;
+    }
+  }
+  
+ 
+/*  
+  #FDB0E6 */
